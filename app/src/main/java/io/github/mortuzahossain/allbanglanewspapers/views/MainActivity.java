@@ -1,4 +1,4 @@
-package io.github.mortuzahossain.allbanglanewspapers;
+package io.github.mortuzahossain.allbanglanewspapers.views;
 
 import android.os.Bundle;
 
@@ -9,6 +9,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.github.mortuzahossain.allbanglanewspapers.R;
 import io.github.mortuzahossain.allbanglanewspapers.adapter.TabAdapter;
 
 public class MainActivity extends AppCompatActivity {
