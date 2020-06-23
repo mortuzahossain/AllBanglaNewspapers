@@ -25,7 +25,7 @@ public class DetailsActivity extends AppCompatActivity {
     @BindView(R.id.swipeRefresh)
     SwipeRefreshLayout swipeRefresh;
 
-    private static String LOAD_URL = "LOAD_URL";
+    public static String LOAD_URL = "LOAD_URL";
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
