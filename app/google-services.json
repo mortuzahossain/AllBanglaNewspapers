@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "435745019602",
+    "firebase_url": "https://all-bangla-newspapers-cb9b0.firebaseio.com",
+    "project_id": "all-bangla-newspapers-cb9b0",
+    "storage_bucket": "all-bangla-newspapers-cb9b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435745019602:android:7a8afdcdf6a27d78467f0b",
+        "android_client_info": {
+          "package_name": "io.github.mortuzahossain.allbanglanewspapers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435745019602-m354sukn24efi0mfb46oiqs1prs2q2j2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "io.github.mortuzahossain.allbanglanewspapers",
+            "certificate_hash": "643c4a263ad95b60ac4a6f5580597a3445fc0e1c"
+          }
+        },
+        {
+          "client_id": "435745019602-gtvcv7ncfi8gjl3t5pj8485bh0eht1ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA71LJ8pZkEAyva6sbgBvw5XcwZFx9qmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435745019602-gtvcv7ncfi8gjl3t5pj8485bh0eht1ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

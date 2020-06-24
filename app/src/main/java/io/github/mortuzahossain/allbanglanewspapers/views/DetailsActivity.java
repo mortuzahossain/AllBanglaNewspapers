@@ -62,4 +62,24 @@ public class DetailsActivity extends AppCompatActivity {
         });
 
     }
+
+   @Override
+    protected void onPause() {
+        webView.onPause();
+        super.onPause();
+    }
+
+    @Override
+    protected void onResume() {
+        webView.onResume();
+        super.onResume();
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (webView.canGoBack())
+            webView.goBack();
+        else
+            super.onBackPressed();
+    }
 }

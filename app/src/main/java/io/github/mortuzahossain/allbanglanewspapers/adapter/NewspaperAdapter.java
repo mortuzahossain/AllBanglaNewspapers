@@ -50,7 +50,7 @@ public class NewspaperAdapter extends RecyclerView.Adapter<NewspaperAdapter.News
 
         holder.singleNewsCard.setOnClickListener(v -> {
 
-            Toast.makeText(context, newspaperModel.getTitle(), Toast.LENGTH_SHORT).show();
+            // Toast.makeText(context, newspaperModel.getTitle(), Toast.LENGTH_SHORT).show();
 
             Intent intent = new Intent(context, DetailsActivity.class);
             intent.putExtra(DetailsActivity.LOAD_URL, newspaperModel.getUrl());
